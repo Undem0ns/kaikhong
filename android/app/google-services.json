@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "487467552060",
+    "project_id": "kaikhong",
+    "storage_bucket": "kaikhong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487467552060:android:94b657c876317e07406239",
+        "android_client_info": {
+          "package_name": "com.example.kaikhong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487467552060-vt4c8dhkh06kicm9f6ban7ja13141c0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbu5RPpd83p7r6roJWbB2R5WQJ3koqs8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487467552060-vt4c8dhkh06kicm9f6ban7ja13141c0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
