@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 
 class Style {
-  Color darkColor = Colors.blue[400];
-  Color lighColor = Colors.blue[300];
-  Color primaryColor = Colors.blue[200];
-  Color buttonlighColor = Colors.blue[100];
+  Color lighColor = Colors.blue[100];
+  Color primaryColor = Colors.blue[400];
+  Color darkColor = Colors.blue[800];
 
   Widget textH1(String string, {Color color}) {
     return Text(
@@ -45,7 +44,6 @@ class Style {
           colors: [
             Style().lighColor,
             Style().primaryColor,
-            Style().darkColor,
           ],
         ),
       );
