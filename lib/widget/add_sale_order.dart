@@ -1,7 +1,7 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:kaikhong/style.dart';
+import 'package:kaikhong/style/style.dart';
 
 class AddItem extends StatefulWidget {
   @override
@@ -245,7 +245,7 @@ class _AddItemState extends State<AddItem> {
                       width: screenWidth * 0.5,
                       child: Center(
                         child: CheckboxListTile(
-                          title: Text('จ่ายแล้ว'),
+                          title: Text('ขายปลีก'),
                           controlAffinity: ListTileControlAffinity.leading,
                           value: paid,
                           onChanged: (bool value) {
@@ -262,7 +262,7 @@ class _AddItemState extends State<AddItem> {
                       width: screenWidth * 0.5,
                       child: Center(
                         child: CheckboxListTile(
-                          title: Text('ยังไม่จ่าย'),
+                          title: Text('ขายส่ง'),
                           controlAffinity: ListTileControlAffinity.leading,
                           value: !paid,
                           onChanged: (bool value) {
